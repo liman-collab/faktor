@@ -1,0 +1,191 @@
+.discount-form button {
+    padding: 5px 10px;
+    background: white;
+    outline: none;
+    box-shadow: none;
+    border: 1px solid #7e8993;
+    border-radius: 5px;
+    /*display: block;*/
+}
+
+.discount-form button:hover {
+    background: none;
+    cursor: pointer;
+}
+
+.discount-form button,
+.discount-form select,
+.discount-form input {
+    margin-bottom: 5px;
+    /*display: block;*/
+}
+
+.discount-form input {
+    width: 174px;
+}
+
+/* clonable */
+.clonable {
+    position: relative;
+    padding-bottom: 35px;
+}
+
+.clonable .clone-content:first-child .clone-remove-row {
+    display: none !important;
+}
+
+.clonable .clone-btn {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.clonable .clone-remove-row {
+    display: inline-block;
+}
+
+.hide-el {
+    visibility: hidden;
+}
+
+/*
+    media manager
+*/
+.bexeo-folders {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    margin-top: 50px;
+}
+
+.bexeo-folders .bexeo-folder {
+    cursor: pointer;
+    text-align: center;
+}
+
+.bexeo-folders .bexeo-folder p {
+    font-weight: 600;
+}
+
+.bexeo-folders .bexeo-folder .bexeo-folder-img {
+    width: 50%;
+}
+
+.bexeo-folder-images {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-top: 50px;
+}
+
+.bexeo-folder-images a {
+    color: #23282d;
+}
+
+.bexeo-folder-images > div {
+    padding: 15px;
+}
+
+.bexeo-folder-image {
+    padding: 5px;
+    box-shadow: 0 0 4px #c9c9c9;
+    transition: box-shadow 0.3s, color 0.3s;
+    cursor: pointer;
+    position: relative;
+    height: 150px;
+    border-radius: 5px;
+}
+
+.bexeo-folder-image:hover {
+    box-shadow: 0 0 10px #23282d;
+}
+
+.bexeo-folder-image img {
+    width: auto;
+    height: 60%;
+}
+
+.bexeo-folder-image .fas {
+    font-size: 50px;
+}
+
+.bexeo-folder-image-item {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.bexeo-file-name {
+    position: absolute;
+    bottom: -12px;
+    font-size: 12px;
+    width: calc(100% - 10px);
+    left: 0;
+    background: #23282d;
+    color: white;
+    padding: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.bexeo-folders-back {
+    font-size: 30px;
+    cursor: pointer;
+    color: #23282d;
+}
+
+.page-row {
+    margin: 10px 0;
+}
+
+.d-block {
+    display: block;
+}
+
+.d-none {
+    display: none !important;
+}
+
+.co-field, .co-radio-label {
+    margin-top: 15px;
+}
+
+.co-radio-label {
+    margin-right: 20px;
+}
+
+#customOrderProduct {
+    max-width: 100%;
+}
+
+label.error {
+    font-size: 12px;
+    color: red;
+}
+
+#addProductBtn {
+    margin-top: 15px;
+    width: 100%;
+    padding: 2px;
+}
+
+#orderProductsTable {
+    display: none;
+}
+
+#saveShippingMethod {
+    width: 100%;
+}
+
+#shippingMethodPrice {
+    line-height: 10px;
+}
+
+.shipping-methods-wrapper {
+    margin-top: 10px;
+    padding: 10px;
+    background: #ededed;
+}
+
+.co-shipping-address {
+    margin: 40px 0;
+}

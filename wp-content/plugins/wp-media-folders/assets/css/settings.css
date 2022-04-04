@@ -1,0 +1,72 @@
+#wpmfs-disclaimer {
+    padding: 5px;
+    background-color: #ff8c00;
+    color: #FFF;
+    border-radius: 2px;
+}
+
+#wpmfs-disclaimer h2, #wpmfs-disclaimer a {
+    color: #fff;
+}
+
+#wpmfs-disclaimer p {
+    font-size: 1.1em;
+}
+
+#wpmfs-disclaimer ul {
+    list-style: square;
+    list-style-position: inside;
+    margin-top: -5px;
+    font-size: 1.1em;
+}
+
+#wpmfs-disclaimer li {
+    margin-left: 10px;
+}
+
+#wpmfs-disclaimer a.button {
+    color: #000 !important;
+}
+
+.wp-media-folders-settings .hint {
+    font-style: italic;
+    padding-left: 30px;
+    color: #666;
+}
+
+.wp-media-folders-settings #table_replace .container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.wp-media-folders-settings .database-table {
+    margin-bottom: 20px;
+    padding-right: 20px;
+    flex: 1 30%;
+}
+
+.wp-media-folders-settings .database-table h2 {
+    border-bottom: 1px solid #CECECE;
+}
+
+.wp-media-folders-settings .database-field {
+    display: table-row;
+}
+
+.wp-media-folders-settings .database-field > span {
+    display: table-cell;
+    width: 50%;
+}
+
+.wp-media-folders-settings .database-field > span input {
+    margin-left: 10px;
+}
+
+#sync_wpmf {
+    vertical-align: baseline;
+}
+
+#sync_wpmf_doing {
+    font-style: italic;
+}

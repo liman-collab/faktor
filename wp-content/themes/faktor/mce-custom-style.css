@@ -1,0 +1,9 @@
+.custom-bullet-ul li:before {
+    content: "";
+    width: 5px;
+    height: 10.5px;
+    display: inline-block;
+    background: red;
+    margin-right: 10px;
+    margin-left: -10px;
+}
